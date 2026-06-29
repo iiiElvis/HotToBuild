@@ -62,18 +62,46 @@ HotToBuild pulls real-time data from:
 
 ## Example output
 
-> 📍 AI Skills direction — why it's worth building now
+User input: `MCP`
+
+> 📍 MCP ecosystem — why it's worth building now
 >
-> Based on data from 3 platforms over the past month, AI Skills is the fastest-growing new category in the AI open source space.
+> Based on GitHub Trending, Hacker News, and OSSInsight data from the past month, MCP is the most "blue ocean" direction in AI open source right now.
 >
-> - GitHub Trending: +9,200 stars this month vs MCP direction +3,800 stars
-> - HN: High discussion volume, multiple threads in top 10
-> - OSSInsight: 50+ different authors trending simultaneously — direction is hot, not one person
+> - GitHub Trending: modelcontextprotocol/servers hit 86K stars, Playwright MCP (Microsoft) 30K stars, 35% usage growth in the past month alone
+> - HN: Multiple front-page threads on MCP security, enterprise adoption, and "the MCP server gold rush"
+> - OSSInsight: 15,926 repos tagged mcp-server, 97M monthly SDK downloads, dozens of different authors trending — this is a direction, not one person
 >
-> ✅ Entry points you can build today:
-> 1. A Claude Code Skill for content creators (most recommended)
-> 2. A Skill pack for product managers
-> 3. A beginner's guide to writing your first Skill
+> 14,000+ MCP servers exist, but most are simple API wrappers. High-value gaps are wide open.
+>
+> 🚫 Not worth building now
+>
+> ① Yet another ChatGPT/Slack/GitHub wrapper MCP server → hundreds already exist, zero differentiation
+>
+> ✅ Entry points you can build today
+>
+> ① **MCP security scanner** (most recommended)
+> 492 MCP servers were found exposed with zero auth. Build a tool that scans MCP server configs for security issues.
+> Why now: every enterprise adopting MCP needs this, nobody has built a good open-source one yet.
+>
+> ② **MCP server testing framework**
+> A pytest-like tool for MCP servers — write tests, run them against any server, get a compatibility report.
+> Why now: 14,000 servers but no standard way to test them.
+>
+> ③ **Domain-specific MCP server pack** (e.g., for data engineering)
+> Bundle 5-10 MCP servers for a specific workflow: dbt + Snowflake + Airflow + Great Expectations.
+> Why now: teams are adopting MCP but wiring up servers one by one is painful.
+>
+> 🎯 #1 recommendation: MCP security scanner
+>
+> One sentence: "npm audit, but for your MCP servers."
+>
+> → Build: scan configs, detect zero-auth endpoints, flag over-permissioned tools
+> → Skip: don't build a full MCP proxy or gateway
+>
+> Why you're not too late:
+> → MCP adoption grew 35% last month — security tooling hasn't caught up
+> → Anthropic donated MCP to Linux Foundation — enterprise adoption is accelerating, security becomes a hard requirement
 
 ---
 

@@ -62,18 +62,46 @@ HotToBuild 从以下平台获取实时数据：
 
 ## 输出示例
 
-> 📍 AI Skills 方向——为什么现在值得做
+用户输入：`MCP`
+
+> 📍 MCP 生态——为什么现在值得做
 >
-> 基于三个平台近一个月的数据，AI Skills 是 AI 开源领域增长最快的新品类。
+> 根据 GitHub Trending、Hacker News、OSSInsight 近一个月数据，MCP 是当前 AI 开源领域最大的蓝海方向。
 >
-> - GitHub Trending：本月新增 +9,200 stars，vs MCP 方向 +3,800 stars
-> - HN：讨论量高，多个帖子进入 Top 10
-> - OSSInsight：50+ 不同作者同时在趋势榜——是方向热，不是个人热
+> - GitHub Trending：modelcontextprotocol/servers 达到 86K stars，Playwright MCP（微软）30K stars，过去一个月使用量增长 35%
+> - HN：多个帖子登上首页，讨论集中在 MCP 安全、企业落地、"MCP server 淘金热"
+> - OSSInsight：15,926 个 mcp-server 标签仓库，SDK 月下载量 9700 万次，数十个不同作者同时在趋势榜——是方向热，不是个人热
 >
-> ✅ 你今天可以切入的方向：
-> 1. 为内容创作者做一个 Claude Code Skill（最推荐）
-> 2. 为产品经理做一个 Skill 合集
-> 3. 写一份新手入门指南：如何写你的第一个 Skill
+> 已有 14,000+ MCP server，但大部分是简单 API 包装。高价值空白还很多。
+>
+> 🚫 现在不值得做的
+>
+> ① 再做一个 ChatGPT/Slack/GitHub 的 MCP wrapper → 已有几百个，没有差异化空间
+>
+> ✅ 你现在可以切入的方向
+>
+> ① **MCP 安全扫描器**（最推荐）
+> 已发现 492 个 MCP server 零认证暴露在公网。做一个扫描 MCP 配置安全问题的工具。
+> 为什么值得做：每个用 MCP 的企业都需要，目前没有好的开源方案。
+>
+> ② **MCP server 测试框架**
+> 类似 pytest 的工具——写测试、跑在任意 server 上、输出兼容性报告。
+> 为什么值得做：14,000 个 server 但没有标准测试方式。
+>
+> ③ **垂直领域 MCP server 套件**（如数据工程方向）
+> 打包 5-10 个 MCP server 覆盖一个完整工作流：dbt + Snowflake + Airflow + Great Expectations。
+> 为什么值得做：团队在用 MCP 但一个个接 server 很痛苦。
+>
+> 🎯 最推荐你做第一个：MCP 安全扫描器
+>
+> 一句话："npm audit，但给你的 MCP server 用。"
+>
+> → 只做：扫描配置、检测零认证端点、标记过度授权的工具
+> → 不做：不做 MCP 代理或网关
+>
+> 为什么现在进入还来得及：
+> → MCP 使用量上个月增长 35%，安全工具完全没跟上
+> → Anthropic 已把 MCP 捐给 Linux 基金会，企业采用在加速，安全是硬需求
 
 ---
 
