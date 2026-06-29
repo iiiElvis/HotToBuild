@@ -2,29 +2,25 @@
 
 # HotToBuild 🔥
 
-**Find the hottest AI directions on GitHub and figure out what you can build today.**
+**Want to launch an open-source project on GitHub but don't know what to build?**
 
-You don't need an idea to start.
-You don't need to know what's trending.
-Just tell it what you're interested in — or nothing at all.
+HotToBuild helps you find the AI directions where GitHub repos are getting the most stars right now — which directions still have room for new projects, and what you can publish on GitHub today to get noticed.
 
-HotToBuild scans GitHub Trending, Hacker News, and OSSInsight
-to find which AI directions are growing fastest right now,
-and gives you specific open-source project ideas you can start today. 🚀
+It pulls real data from GitHub Trending, Hacker News, and OSSInsight to find where the stars are going, so you don't waste time building something nobody will care about. 🚀
 
 ---
 
 ## What it does
 
-GitHub Trending shows you what is hot.
-HotToBuild shows you what you can build.
+GitHub Trending shows you what repos are getting stars.
+HotToBuild shows you what repo **you** can build to get stars.
 
 Give it a direction like `MCP`, `AI Agent`, `AI Skills`, or nothing at all — and it will:
 
-- Tell you why a direction is trending (with real data from 3 platforms)
-- Show you which directions still have room for new projects
-- Give you 3 specific entry points you can start today
-- Recommend the #1 project worth building right now
+- Show you which AI directions are getting the most stars on GitHub right now (with real data)
+- Tell you which directions still have room for a new repo to break through
+- Give you 3 specific project ideas you can publish on GitHub today
+- Recommend the #1 repo worth building right now
 
 ---
 

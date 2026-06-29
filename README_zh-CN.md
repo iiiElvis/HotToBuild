@@ -2,29 +2,25 @@
 
 # HotToBuild 🔥
 
-**在 GitHub 上找到最热的 AI 方向，搞清楚你今天能做什么。**
+**想在 GitHub 上发一个开源项目，但不知道做什么方向？**
 
-你不需要先有想法。
-你不需要知道什么在流行。
-只需要告诉它你感兴趣的方向——或者什么都不说。
+HotToBuild 帮你找到现在 GitHub 上什么 AI 方向的项目最容易拿 star——哪些方向的 repo 在疯狂涨星、哪些方向还有新项目的空间、你今天可以在 GitHub 上发布什么项目切入。
 
-HotToBuild 会扫描 GitHub Trending、Hacker News 和 OSSInsight，
-找到当前增长最快的 AI 开源方向，
-给你具体的项目切入点，今天就能动手。🚀
+它从 GitHub Trending、Hacker News、OSSInsight 抓取真实数据，帮你选对方向，不浪费时间做没人关注的东西。🚀
 
 ---
 
 ## 它能做什么
 
-GitHub Trending 告诉你什么在火。
-HotToBuild 告诉你你能做什么。
+GitHub Trending 告诉你什么 repo 在拿 star。
+HotToBuild 告诉你**你**可以做什么 repo 来拿 star。
 
 给它一个方向，比如 `MCP`、`AI Agent`、`AI Skills`，或者什么都不给——它会：
 
-- 用三个平台的真实数据告诉你一个方向为什么在火
-- 帮你看哪些方向还有新项目的空间
-- 给你 3 个今天就能开始的具体切入点
-- 推荐一个最值得做的项目
+- 告诉你现在 GitHub 上哪些 AI 方向的项目在拿最多 star（附真实数据）
+- 帮你看哪些方向还有新 repo 冲出来的空间
+- 给你 3 个今天就能发布到 GitHub 上的具体项目切入点
+- 推荐一个现在最值得做的 repo
 
 ---
 
