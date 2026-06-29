@@ -1,3 +1,5 @@
+[中文版](README_zh-CN.md) | English
+
 # HotToBuild 🔥
 
 **Turn trending AI projects into buildable open-source ideas.**
