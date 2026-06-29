@@ -2,15 +2,15 @@
 
 # HotToBuild 🔥
 
-**Turn trending AI projects into buildable open-source ideas.**
+**Find the hottest AI directions on GitHub and figure out what you can build today.**
 
 You don't need an idea to start.
 You don't need to know what's trending.
-Just tell us what you're interested in — or nothing at all.
+Just tell it what you're interested in — or nothing at all.
 
-HotToBuild scans GitHub, Hacker News, and OSSInsight
-to find the hottest AI directions right now,
-and tells you exactly what you can build today. 🚀
+HotToBuild scans GitHub Trending, Hacker News, and OSSInsight
+to find which AI directions are growing fastest right now,
+and gives you specific open-source project ideas you can start today. 🚀
 
 ---
 
@@ -19,20 +19,30 @@ and tells you exactly what you can build today. 🚀
 GitHub Trending shows you what is hot.
 HotToBuild shows you what you can build.
 
-Give it a trend like `MCP`, `AI Agent`, `AI Skills`, or nothing at all — and it will:
+Give it a direction like `MCP`, `AI Agent`, `AI Skills`, or nothing at all — and it will:
 
-- Tell you why a direction is trending (with real data)
-- Show you which directions have room for new projects
+- Tell you why a direction is trending (with real data from 3 platforms)
+- Show you which directions still have room for new projects
 - Give you 3 specific entry points you can start today
 - Recommend the #1 project worth building right now
 
 ---
 
-## How to use
+## How to install
 
-### Option 1: As a Claude Skill (recommended)
+### Option 1: As a Claude Code Skill (recommended)
 
-Install `hot-to-build.skill` in Claude Code or any Claude Skill-compatible environment.
+1. Clone this repo or download the `hot-to-build.skill` file
+2. Unzip and place the folder under `~/.claude/skills/` (global) or `your-project/.claude/skills/` (project-only)
+3. Make sure the folder contains `SKILL.md`
+4. In Claude Code, type `/hot-to-build` to use it
+
+```bash
+# Quick install
+git clone git@github.com:iiiElvis/HotToBuild.git
+mkdir -p ~/.claude/skills/hot-to-build
+cp HotToBuild/SKILL.md ~/.claude/skills/hot-to-build/
+```
 
 ### Option 2: Copy the System Prompt
 
